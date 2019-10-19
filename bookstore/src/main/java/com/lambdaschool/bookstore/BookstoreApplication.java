@@ -10,9 +10,11 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @EnableJpaAuditing
 @SpringBootApplication
-public class BookstoreApplication {
+public class BookstoreApplication
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         ApplicationContext context =  SpringApplication.run(BookstoreApplication.class, args);
 
         DispatcherServlet dispatcherServlet = (DispatcherServlet) context.getBean("dispatcherServlet");

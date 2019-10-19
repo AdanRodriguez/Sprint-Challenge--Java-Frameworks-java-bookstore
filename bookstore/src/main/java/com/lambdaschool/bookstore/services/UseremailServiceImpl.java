@@ -3,7 +3,6 @@ package com.lambdaschool.bookstore.services;
 import com.lambdaschool.bookstore.exceptions.ResourceNotFoundException;
 import com.lambdaschool.bookstore.logging.Loggable;
 import com.lambdaschool.bookstore.model.Useremail;
-
 import com.lambdaschool.bookstore.repository.UseremailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

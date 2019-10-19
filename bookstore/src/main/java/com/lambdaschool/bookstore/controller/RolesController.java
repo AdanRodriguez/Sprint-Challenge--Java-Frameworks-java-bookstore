@@ -1,6 +1,5 @@
 package com.lambdaschool.bookstore.controller;
 
-
 import com.lambdaschool.bookstore.logging.Loggable;
 import com.lambdaschool.bookstore.model.Role;
 import com.lambdaschool.bookstore.services.RoleService;

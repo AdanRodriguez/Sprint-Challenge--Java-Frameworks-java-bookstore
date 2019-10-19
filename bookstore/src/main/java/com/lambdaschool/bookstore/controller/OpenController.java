@@ -1,6 +1,5 @@
 package com.lambdaschool.bookstore.controller;
 
-
 import com.lambdaschool.bookstore.logging.Loggable;
 import com.lambdaschool.bookstore.model.User;
 import com.lambdaschool.bookstore.model.UserMinimum;

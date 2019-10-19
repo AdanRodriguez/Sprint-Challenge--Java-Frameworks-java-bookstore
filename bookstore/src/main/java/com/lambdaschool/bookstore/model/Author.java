@@ -77,4 +77,4 @@ public class Author extends Auditable
     {
         return "Author{" + "authorid=" + authorid + ", lastname='" + lastname + '\'' + ", firstname='" + firstname + '\'' + ", wrote=" + wrote + '}';
     }
-    }
+}

@@ -3,7 +3,6 @@ package com.lambdaschool.bookstore.handlers;
 import com.lambdaschool.bookstore.exceptions.ResourceFoundException;
 import com.lambdaschool.bookstore.exceptions.ResourceNotFoundException;
 import com.lambdaschool.bookstore.exceptions.ValidationError;
-
 import com.lambdaschool.bookstore.logging.Loggable;
 import com.lambdaschool.bookstore.model.ErrorDetail;
 import org.springframework.beans.TypeMismatchException;

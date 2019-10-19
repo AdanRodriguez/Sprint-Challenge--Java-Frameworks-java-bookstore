@@ -3,7 +3,6 @@ package com.lambdaschool.bookstore.services;
 import com.lambdaschool.bookstore.exceptions.ResourceFoundException;
 import com.lambdaschool.bookstore.exceptions.ResourceNotFoundException;
 import com.lambdaschool.bookstore.logging.Loggable;
-
 import com.lambdaschool.bookstore.model.Role;
 import com.lambdaschool.bookstore.model.User;
 import com.lambdaschool.bookstore.model.UserRoles;

@@ -1,7 +1,6 @@
 package com.lambdaschool.bookstore.config;
 
 import com.fasterxml.classmate.TypeResolver;
-
 import com.lambdaschool.bookstore.model.ErrorDetail;
 import com.lambdaschool.bookstore.model.TokenModel;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,11 +51,11 @@ public class Swagger2Config
     {
         return new ApiInfoBuilder().title("Java Spring Back End Starting Project")
                 .description("A starting application for developing Java Spring Back End Projects")
-                .contact(new Contact("John Mitchell",
-                        "http://www.lambdaschool.com",
-                        "john@lambdaschool.com"))
+                .contact(new Contact("Adan Rodriguez",
+                        "",
+                        ""))
                 .license("MIT")
-                .licenseUrl("https://github.com/LambdaSchool/java-starthere/blob/master/LICENSE")
+                .licenseUrl("")
                 .version("1.0.0")
                 .build();
     }
